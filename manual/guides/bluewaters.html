@@ -243,28 +243,28 @@
 <p>Have Prof Huff get you approved for Blue Waters!</p>
 
 <h2 id="step-2-apply-for-blue-waters">Step 2. Apply for Blue Waters</h2>
-<p>Follow the link and fill out the application<br />
-        You can either receive a virtual token or a physical token<br />
-        A Virutal token is done through your mobile device,<br />
+<p>Follow the link and fill out the application
+        You can either receive a virtual token or a physical token
+        A Virutal token is done through your mobile device,
         and a physical token looks like this:</p>
 
 <p><img src="/img/manual/guides/bw-token.jpg" alt="alt text" /></p>
 
-<p>Or, if you chose a soft token, install the RSA SecurID app and <br />
+<p>Or, if you chose a soft token, install the RSA SecurID app and 
 follow the instruction sent to you by email.</p>
 
 <h2 id="step-3-wait">Step 3. Wait</h2>
 <p>Wait patiently for the token to arrive.</p>
 
 <h2 id="step-4-activating-token">Step 4. Activating Token</h2>
-<p>With your token, open the email ‘Blue Waters Instructions’<br />
-Click the <a href="https://otp.ncsa.illinois.edu">link</a><br />
+<p>With your token, open the email ‘Blue Waters Instructions’
+Click the <a href="https://otp.ncsa.illinois.edu">link</a>
 and follow its directions, and activate your token.</p>
 
 <p>** tip) the pin must be 8 digits, letters and numbers, something that you’ll never forget!</p>
 
 <h2 id="step-5-loggin-in">Step 5. Loggin In</h2>
-<p>Open terminal, type<br />
+<p>Open terminal, type
 <code class="highlighter-rouge">
 $ssh [username]@h2ologin.ncsa.illinois.edu
 </code></p>
@@ -288,13 +288,13 @@ $vim config
 </code></pre>
 </div>
 
-<p>Then you’d just have to type in<br />
+<p>Then you’d just have to type in
 <code class="highlighter-rouge">
 $ssh [desired_name]
 </code></p>
 
-<p>For example, you might have named Blue Waters “bw”.<br />
-In that case, you simply type<br />
+<p>For example, you might have named Blue Waters “bw”.
+In that case, you simply type
 <code class="highlighter-rouge">
 $ssh bw
 </code></p>
@@ -340,12 +340,12 @@ $ssh bw
 </table>
 
 <h4 id="tip-bashrc">tip) ~/.bashrc</h4>
-<p>If you don’t want to load your modules every time, edit ~/.bashrc <br />
-and have all your ‘module load/swap’ commands.<br />
+<p>If you don’t want to load your modules every time, edit ~/.bashrc 
+and have all your ‘module load/swap’ commands.
 <code class="highlighter-rouge">
 $vim ~/.bashrc
-</code><br />
-after editing the bashrc, you must source it:<br />
+</code>
+after editing the bashrc, you must source it:
 <code class="highlighter-rouge">
 $source ~/.bashrc
 </code></p>
@@ -356,12 +356,12 @@ $source ~/.bashrc
 </div>
 
 <h2 id="how-to-download-source-code">How to Download Source Code</h2>
-<p>Because Blue Waters is an HPC machine, it does<br />
-not have a package manager (like Ubuntu’s apt-get).<br />
+<p>Because Blue Waters is an HPC machine, it does
+not have a package manager (like Ubuntu’s apt-get).
 This is the reason why one has to build from source.</p>
 
-<p>Also, one does not have sudo, which means that<br />
-the packages should be built either in your<br />
+<p>Also, one does not have sudo, which means that
+the packages should be built either in your
 home directory(~) or in the group directory (bahg)</p>
 
 <p>Get source codes by:</p>
